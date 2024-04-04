@@ -382,10 +382,18 @@
                  <form id="myForm" action="https://formsubmit.co/elias.cardenas.k@gmail.com" method="POST">
                     <div class="input-line">
                         <input name="nombre" id="nombre" type="text" placeholder="Nombre" class="input-name">
+			    required="required" data-validation-required-message="Por favor ingrese su nombre"/>
+                            <p class="help-block text-danger"></p>
                         <input name="correo" id="correo" type="email" placeholder="Correo"  class="input-name">
+			    required="required" data-validation-required-message="Por favor ingrese su correo"/>
+                            <p class="help-block text-danger"></p>
                     </div>
                     <input type="text" name="asunto" id="asunto" placeholder="Asunto" class="input-subject">
+			 required="required" data-validation-required-message="introdusca un asunto"/>
+                            <p class="help-block text-danger"></p>
                     <textarea name="mensaje" id ="mensaje" class="input-textarea" placeholder="Mensaje"></textarea>
+			 required="required" data-validation-required-message="Por favor ingrese un mensaje"/>
+                            <p class="help-block text-danger"></p>
                     <button class="button" type="submit" id ="submit" value="Enviar">Enviar</button>
 			 
 		    <input type="hidden" name="_next" value="https://eliascr09.github.io/SiteRedfone/">
