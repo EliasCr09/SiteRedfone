@@ -379,14 +379,17 @@
                  <div class="form-header">
                      Envía un mensaje
                  </div>
-                 <form id="myForm" action="#">
+                 <form id="myForm" action="https://formsubmit.co/elias.cardenas.k@gmail.com" method="POST">
                     <div class="input-line">
-                        <input  id="name" type="text" placeholder="Nombre" class="input-name">
-                        <input id="email" type="email" placeholder="Correo"  class="input-name">
+                        <input name="nombre" id="nombre" type="text" placeholder="Nombre" class="input-name">
+                        <input name="correo" id="correo" type="email" placeholder="Correo"  class="input-name">
                     </div>
-                    <input type="text" id="subject" placeholder="Asunto" class="input-subject">
-                    <textarea id ="body" class="input-textarea" placeholder="Mensaje"></textarea>
-                    <button type="button" id ="submit" value="send">Enviar</button>
+                    <input type="text" name="asunto" id="asunto" placeholder="Asunto" class="input-subject">
+                    <textarea name="mensaje" id ="mensaje" class="input-textarea" placeholder="Mensaje"></textarea>
+                    <button class="button" type="submit" id ="submit" value="Enviar">Enviar</button>
+			 
+		    <input type="hidden" name="_next" value="https://eliascr09.github.io/SiteRedfone/">
+                    <input type="hidden" name="_captcha" value="false">	
                  </form>
                
              </div>
@@ -397,13 +400,6 @@
                     Informacion de Contacto
                 </div>
                 <div class="contact-info-content">
-                <div class="contect-info-content-line">
-                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
-                    <div class="contact-info-icon-text">
-                        <h6>Nombre</h6>
-                        <p>Josue Jhonson</p>
-                  </div>
-                </div>
                 <div class="contect-info-content-line">
                   <img src="./images/icon-location.png" class="icon" alt="location-icon">
                   <div class="contact-info-icon-text">
